@@ -5,7 +5,7 @@ import time
 import os
 # import multiprocessing
 
-filelink = "/Users/nokhimwong/Programming/Python/PlaylistAutomation/img"
+filelink = "/Users/isaac/Documents/Programming/Python/PlaylistAutomation/img"
 os.chdir(filelink)
 x, y = pyautogui.size()
 

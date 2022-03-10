@@ -5,7 +5,7 @@ import pygetwindow as gw
 import time
 from PIL import ImageGrab
 
-filelink = "/Users/nokhimwong/Programming/Learning/python/PlaylistAutomation/img"
+filelink = "/Users/isaac/Documents/Programming/Python/PlaylistAutomation/img/"
 x, y = pyautogui.size()
 
 z1 = list(gw.getWindowGeometry("YouTube"))
@@ -39,7 +39,7 @@ print("more")
 #more
 im = ImageGrab.grab(bbox = z1)
 
-more = pyautogui.locate(filelink+"show.png",im)
+more = pyautogui.locate(filelink+"more.png",im)
 print(more)
 #pyautogui.click(x=more[0], y=more[1])
 pyautogui.moveTo(x=z1[0], y=z1[1])
