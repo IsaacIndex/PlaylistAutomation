@@ -3,9 +3,6 @@ This is a python script which helps me play a certain playlist in the YouTube ap
 
 ## Table of Contents
 * [Usage](#usage)
-* [Technologies Used](#technologies-used)
-* [Challenges](#challenges)
-* [Room for Improvement](#room-for-improvement)
 
 ## Usage
 I used to play music in my YouTube playlist while studying. However, I always get distracted by other contents on YouTube. This script not only helps me ignore them, but also allows me to start work as soon as possible.
